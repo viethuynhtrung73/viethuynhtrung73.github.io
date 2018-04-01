@@ -1,0 +1,157 @@
+*{
+    box-sizing:border-box;
+}
+
+  .introduce{ width:100%;
+  background-color:white;
+  padding:0px 14px 14px 14px;
+  }
+ ul {
+       list-style-type: none;
+       margin: 14px 14px;
+       padding: 14px 10px;
+    }
+ li {
+      float:left
+    }
+ li a {
+        padding:10px;
+        color:#3c3c3c;
+        text-decoration: none;
+      }
+ .right {
+         float:right;
+         }
+.intro { width:100%;
+           height:100%;
+           background-image:url('https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png');
+           overflow: hidden;
+           background-size: cover ;
+          }
+.intro1 {padding:125px 0px 0px 145px;
+           color: white;
+           }
+.intro2{background-color: lightgray;
+         overflow: hidden;
+        }
+.intro3 {padding:10px 42px ;
+           color: black;
+           overflow: hidden;}               
+
+.closed{
+    background-color: lightgray;
+    width: 33% ;
+    float: left;
+    padding:0px 33px 53px 43px;
+    overflow: hidden;
+}
+.closed1 {
+    
+    width: 33% ;
+    float: left;
+    padding: 10px 43px;
+    overflow: hidden;
+}
+
+img {padding-top: 30px;
+    }
+    
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+ .introduce {
+        padding: 0px 0px 1px 0px;
+        background-color: grey;
+    }
+ li a {
+        color: white;
+    }
+
+    .intro {
+        background-image: url("#");
+        width: 100%;
+        height:auto;
+        background-color: white;
+        padding: 0px;
+    }
+    .intro1 {
+        color: black;
+        margin: 33px 0px;
+        padding: 0px;
+    }
+
+
+   
+    
+    .intro2 {
+        border-top: 1px solid grey;
+        background-color: white;
+        padding: 0px;
+    }
+    .intro3 {color:black;
+               padding: 0px;}
+
+    .closed{width:50%;
+           float: left;
+           background-color:white;
+           padding: 0px;
+           }
+    .closed1 { 
+        width: 100% ;
+        float: left;
+        padding: 14px 14px 14px 14px;
+
+        overflow: hidden;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+ .introduce {
+        padding: 0px 0px 1px 0px;
+        background-color: grey;
+    }
+ li a {
+        color: white;
+    }
+
+    .intro {
+        background-image: url("#");
+        width: 100%;
+        height:auto;
+        background-color: white;
+        padding: 0px;
+    }
+    .intro1 {
+        color: black;
+        margin: 33px 0px;
+        padding: 0px;
+		  
+    }
+
+
+   
+    
+    .intro2 {
+        border-top: 1px solid grey;
+        background-color: white;
+        padding: 0px;
+		 
+    }
+    .intro3 {color:black;
+               padding: 0px;
+			   }
+			     
+
+    .closed{width:100%;
+           float: left;
+           background-color:white;
+           padding: 0px;
+           }
+    .closed1 { 
+        width: 100% ;
+        float: left;
+        padding: 14px 14px 14px 14px;
+
+        overflow: hidden;
+    }
+    
+}
+    
